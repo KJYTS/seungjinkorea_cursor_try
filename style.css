@@ -274,6 +274,7 @@ img { display: block; }
 
 /* Product catalog */
 .product-page { font-weight: 400; }
+.product-page .container:not(.catalog-list) { width: calc(100% - 2 * var(--gutter)); }
 .product-page .header-inner nav { color: #333; font-weight: 500; line-height: 25px; }
 .product-page .header-inner [aria-current],
 .product-page .footer-inner { font-weight: 700; }
