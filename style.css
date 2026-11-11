@@ -36,6 +36,7 @@ img { display: block; }
   background: #fff;
 }
 .company-page { --header-height: 80px; }
+.company-page .container { width: calc(100% - 2 * var(--gutter)); }
 .company-page #contact { scroll-margin-top: var(--header-height); }
 .header-inner, .footer-inner {
   display: flex;
